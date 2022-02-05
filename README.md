@@ -20,9 +20,9 @@ Two variables are important, speed and gas price.
 
 WILL WRITE LATER
 
-# Setup ⚡️
+# Setup
 
-1. Install node and repo's dependancies
+1. Install node and repo's dependencies
 
 2. Fill in .env with your wallet's public address, private address, and infura url.
 
