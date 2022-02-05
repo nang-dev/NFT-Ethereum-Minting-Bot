@@ -34,9 +34,12 @@ WILL WRITE LATER
 
 # How to run ⚡️
 
-After setup, run :
+After setup, run:
 
 `node mint.js`
+
+To run on multiple (two) wallets add MY_PUBLIC_ADDR2 and MY_PRIVATE_ADDR2 to env and run (UNDER CONSTRUCTION):
+`node mint.js & ; node mint2.js`
 
 During the time of public sale release.
 
