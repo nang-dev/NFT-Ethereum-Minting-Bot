@@ -31,11 +31,15 @@ const valueTotal = valueSingle*count
 
 const mint = async () => {
     let nftContract = new web3.eth.Contract(abi, contractAddr);
-
+    
     console.log(`Attempting to mint... \n`)
     console.log('Gas Price', gasPrice)
     console.log('Total Value', valueTotal)
+
+    console.log("My value: ")
+    web3.eth.getBalance(pubAddr).then(console.log)
         
+    /*
     // Smart Contract RPC call (EDIT FUNCTION NAME TO MATCH SMART CONTRACT)
     nftContract.methods.publicSalesMint(count).send({ from: pubAddr, value: totalValue, gasPrice: gasPrice })
         .on('confirmation', (confirmations, receipt) => {
@@ -49,6 +53,8 @@ const mint = async () => {
             console.log(receipt);
             console.log(confirmations);
         })
+    */
+    
 }
 
 /*
